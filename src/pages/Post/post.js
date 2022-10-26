@@ -1,15 +1,12 @@
 import React from 'react'
 
 import { Link } from 'react-router-dom';
+import Header from '../../components/Header/Header';
 
 function Post() {
   return (
     <div>
-        <h1>COMPONENT POST</h1>
-
-          <Link to="/">
-            <button>VOLTAR</button>
-          </Link>
+        <Header/>
     </div>
   )
 }

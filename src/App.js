@@ -1,11 +1,12 @@
 import React from "react";
 
+
 import { BrowserRouter as Router,  Routes, Route,  Link } from "react-router-dom";
 
-import Edit from "./pages/edit";
-import Feed from "./pages/feed";
-import LerMais from "./pages/lermais";
-import Post from "./pages/post";
+import Edit from "./pages/Edit/edit";
+import Feed from "./pages/Feed/feed";
+import LerMais from "./pages/LerMais/lermais";
+import Post from "./pages/Post/post";
 
 function App() {
   return (

@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './styles/global.css';
+
 import App from './App';
-import Feed from './pages/feed';
+// import Feed from './pages/Feed/feed.js';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
